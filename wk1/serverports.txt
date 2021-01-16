@@ -1,0 +1,20 @@
+Q: What is the definition of server port?
+A: A server port is a communication endpoint.
+
+Q: What is server port range?
+A: Server port range is the port number that a port can have, registered ports have a number from 1024 to 49151 and dynamic ports a a number from 49152 to 65535.
+
+Q: How many bits does number above represent?
+A: 10 to 14 bits
+
+Q: State 10 common server ports
+A: 	1. 20 - file trasfer protocol data transfer
+	2. 21 - file trasfer protocol command control
+	3. 22 - secure shell
+	4. 23 - telnet - remote login service, unencrypted text messages
+	5. 25 - simple mail transfer protocol
+	6. 53 - domain name system
+	7. 80 - hypertext transer protocol
+	8. 110 - post office protocol
+	9. 443 - http with secure socket layer
+	10. 3389 - remote desktop protocol
