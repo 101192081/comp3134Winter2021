@@ -1,0 +1,51 @@
+query1: instagram.com
+ip: 3.223.15.19
+geolocation data: 	Country	US
+			Latitude 39.76
+			Longitude -98.5
+			Time zone offset by UTC -05:00
+			Geoname ID 6252001
+
+query2: blackboard.com
+ip: 104.209.183.225
+geolocation data:	Country	US
+			Region Virginia
+			City Boydton
+			Latitude 36.66764
+			Longitude -78.3875
+			Postal code 23917
+			Time zone offset by UTC -05:00
+			Geoname ID 4748634
+
+query3: discord.com
+ip: 162.159.137.232
+geolocation data:	Country	US
+			Region Illinois
+			City Chicago
+			Latitude 41.85003
+			Longitude -87.65005
+			Postal code 60601
+			Time zone offset by UTC -06:00
+			Geoname ID 4887398
+
+query4: store.steampowered.com
+ip: 104.99.84.230
+geolocation data:	Country	US
+			Region Washington
+			City Seattle
+			Latitude 47.60621
+			Longitude -122.33207
+			Postal code 98101
+			Time zone offset by UTC -08:00
+			Geoname ID 5809844
+
+query5: nintendo.com
+ip: 199.227.51.53
+geolocation data:	Country	US
+			Region Florida
+			City Boca Raton
+			Latitude 26.35869
+			Longitude -80.0831
+			Postal code 33427
+			Time zone offset by UTC -05:00
+			Geoname ID 4148411

@@ -1,0 +1,48 @@
+nmap 165.22.239.236
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-01-24 20:14 UTC
+Nmap scan report for ubuntu-s-1vcpu-1gb-tor1-01 (165.22.239.236)
+Host is up (0.0000040s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds
+
+
+nmap -p 443 216.58.217.35
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-01-24 20:17 UTC
+Nmap scan report for sea15s08-in-f3.1e100.net (216.58.217.35)
+Host is up (0.063s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.49 seconds
+
+
+nmap -p 0-443 172.217.3.174
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-01-24 20:19 UTC
+Nmap scan report for sea15s11-in-f174.1e100.net (172.217.3.174)
+Host is up (0.061s latency).
+Not shown: 442 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.76 seconds
+
+
+nmap -F 54.239.18.172
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-01-24 20:20 UTC
+Nmap scan report for 54.239.18.172
+Host is up (0.023s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds
