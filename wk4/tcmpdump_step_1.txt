@@ -1,0 +1,16 @@
+tcpdump  -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:43:22.462379 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 2130067970:2130068078, ack 2794742159, win 501, length 108
+22:43:22.462431 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 108:144, ack 1, win 501, length 36
+22:43:22.462478 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 144:252, ack 1, win 501, length 108
+22:43:22.462513 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 252:288, ack 1, win 501, length 36
+22:43:22.463067 IP ubuntu-s-1vcpu-1gb-tor1-01.40620 > 67.207.67.3.domain: 7595+ [1au] PTR? 216.185.114.142.in-addr.arpa. (57)
+22:43:22.463423 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.40620: 7595 1/0/1 PTR bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca. (127)
+22:43:22.463439 IP ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.3: ICMP ubuntu-s-1vcpu-1gb-tor1-01 udp port 40620 unreachable, length 163
+22:43:22.463755 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 552:756, ack 1, win 501, length 204
+22:43:22.463834 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 792:996, ack 1, win 501, length 204
+^C
+9 packets captured
+15 packets received by filter
+3 packets dropped by kernel

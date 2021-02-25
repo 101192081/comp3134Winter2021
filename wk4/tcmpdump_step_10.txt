@@ -1,0 +1,16 @@
+tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:55:46.353322 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 2154318222:2154318330, ack 2794765171, win 501, length 108
+22:55:46.353376 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 108:144, ack 1, win 501, length 36
+22:55:46.353827 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 144:252, ack 1, win 501, length 108
+22:55:46.353869 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 252:288, ack 1, win 501, length 36
+22:55:46.355004 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 288:516, ack 1, win 501, length 228
+22:55:46.355057 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 516:552, ack 1, win 501, length 36
+22:55:46.355101 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 552:756, ack 1, win 501, length 204
+22:55:46.355137 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 756:792, ack 1, win 501, length 36
+22:55:46.355184 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon2638w-grc-48-142-114-185-216.dsl.bell.ca.50593: Flags [P.], seq 792:996, ack 1, win 501, length 204
+^C
+9 packets captured
+14 packets received by filter
+0 packets dropped by kernel
