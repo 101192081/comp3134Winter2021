@@ -1,0 +1,4 @@
+1)url after '/browse/' changed to word?s=t
+2)changed directory from '/browse/' to '/misspelling?term=werd'
+3)directory changed to '/noresult' with query string 'term=<script>alert('hello')<%2Fscript>'
+4)directory changed to '/noresult' with query string 'term=<script>alert('hello')<%2Fscript>'
